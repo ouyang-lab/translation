@@ -1,5 +1,8 @@
-# Translation paper Datasets
-Datasets used in our paper.
+# Translation Paper Datasets
+We constructed the dataset of mouse embryonic stem cells (mESCs) with the generated RNA sequence and structure features of 4,244 transcripts. The dataset includes 219 sequence features and 136 structure features for each transcript. The data to generate the in vivo and in vitro structure features were from the icSHAPE data by Spitale et.al. [1]. How these features were generated are described in the supplementary materials. The dataset includes 2,122 transcripts as the positive dataset because of their high (top 25%) translation efficiency (TE), and the other 2,122 transcripts as the negative dataset with low (bottom 25%) TE. The TE of each transcript was calculated from the RNA-seq and Ribo-seq data from the mESC by Ingolia et.al. [2]. Please check the subsection Methods for details about the TE calculation.
+
+We constructed the dataset of zebrafish developmental stages with the same feature set as the mESCs data. The positive and the negative dataset each has 368 transcripts in total.  The data to generate the in vivo and in vitro structure features were from the DMS-seq data by Beaudoin et al. [3]. The TE of each transcript was calculated from the RNA-seq and Ribo-seq data from Beaudoin et al. [3] as well.
+
 
 ## musESC_combined_tab_top_bot_25.txt
 
@@ -46,5 +49,11 @@ Similar as the in vivo feature, there are 66 features in total in this category.
 We calculated the minimum free energy of the 5’ UTR, the CDS head region, the rest of the CDS region, and the 3’ UTR.
 In total, there are 4 features in this category.
 
+
+# References
+
+1.	Spitale RC, Flynn RA, Zhang QC, Crisalli P, Lee B, Jung JW, Kuchelmeister HY, Batista PJ, Torre EA, Kool ET et al: Structural imprints in vivo decode RNA regulatory mechanisms. Nature 2015, 519(7544):486-490.
+2.	Ingolia NT, Lareau LF, Weissman JS: Ribosome profiling of mouse embryonic stem cells reveals the complexity and dynamics of mammalian proteomes. Cell 2011, 147(4):789-802.
+3.	Beaudoin JD, Novoa EM, Vejnar CE, Yartseva V, Takacs CM, Kellis M, Giraldez AJ: Analyses of mRNA structure dynamics identify embryonic gene regulatory programs. Nat Struct Mol Biol 2018, 25(8):677-686.
 
 
