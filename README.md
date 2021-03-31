@@ -50,7 +50,7 @@ We calculated the minimum free energy of the 5’ UTR, the CDS head region, the 
 In total, there are 4 features in this category.
 
 
-# References
+## References
 
 1.	Spitale RC, Flynn RA, Zhang QC, Crisalli P, Lee B, Jung JW, Kuchelmeister HY, Batista PJ, Torre EA, Kool ET et al: Structural imprints in vivo decode RNA regulatory mechanisms. Nature 2015, 519(7544):486-490.
 2.	Ingolia NT, Lareau LF, Weissman JS: Ribosome profiling of mouse embryonic stem cells reveals the complexity and dynamics of mammalian proteomes. Cell 2011, 147(4):789-802.
