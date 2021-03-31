@@ -45,6 +45,6 @@ Similar as the in vivo feature, there are 66 features in total in this category.
 #### 1.2.3 in silico structure
 We calculated the minimum free energy of the 5’ UTR, the CDS head region, the rest of the CDS region, and the 3’ UTR.
 In total, there are 4 features in this category.
-![image](https://user-images.githubusercontent.com/25800203/113182703-34106d80-9221-11eb-98f6-70b451d2f818.png)
+
 
 
